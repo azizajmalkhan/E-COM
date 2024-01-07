@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 75px; /* Adjust this value based on your navigation bar height */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: rgb(49, 46, 46);
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: aqua;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card {
+    border: 1px solid black;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 20px;
+}
+
+#butt {
+    border: 2px solid #e170;
+    background-color: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    box-shadow: blue;
+}
+
+.cart {
+    width: 250px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+
+
+
+
+/*.container
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color:rgb(49, 46, 46)
+}
+nav .logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul
+{
+   float: right;
+
+}
+nav li
+{
+    display: inline-block;
+    list-style: none;
+}
+nav li a 
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    color: aqua;
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.card
+{
+    border: 1px solid black;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+.card img
+{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    
+}
+.title
+{
+    font-weight: bold;
+    margin: 20px;
+}
+#butt
+{
+    border: 2px solid #e170;
+    background-color: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+button:hover
+{
+    box-shadow: blue;
+}
+.cart
+{
+    width: 250px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 100%;
+} */

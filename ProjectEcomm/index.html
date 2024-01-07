@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>New Project</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div>
+            <nav class ="headerc2">
+                <div class ="logo">
+                    <p>iDreams</p>
+                </div>
+                <ul><!--
+                    <li><a href ="#">Home</a></li>                        
+                    <li><a href ="#">Services</a></li>
+                    <li><a href ="#">AboutUs</a></li>
+                    <li><a href ="#">Gallary</a></li>
+                    <li><a href ="#">ContactUs</a></li>-->
+                </ul>
+            </nav>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <section>
+            <div class="container">
+                <h1>Shopping Website</h1>
+                <div class="card" id="item1">
+                    <img src="shirt1.jpg" alt="Image not found">
+                    <div class="title">US POLO Black</div>
+                    <div class="title">Price : 1999</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXl</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Add To Cart" id="butt" onclick="add('US POLO Black')">
+                </div>
+                <div class="card" id="item1">
+                    <img src=shirt2.jpg alt="Image not found">
+                    <div class="title">BLUEBERRY Blue</div>
+                    <div class="title">Price : 1999</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXl</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Add To Cart" id="butt"  onclick="add('BLUEBERRY Blue')">
+                </div>
+                <div class="card" id="item1">
+                    <img src=shirt3.jpg alt="Image not found">
+                    <div class="title">ROADSTER White</div>
+                    <div class="title">Price : 1999</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXl</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Add To Cart" id="butt" onclick="add('ROADSTER White')">
+                </div>
+                <div class="card" id="item1">
+                    <img src=shirt4.jpg alt="Image not found">
+                    <div class="title">POLO Blue Formal</div>
+                    <div class="title">Price : 1999</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXl</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Add To Cart" id="butt" onclick="add('POLO Blue Formal')">
+                </div>
+            </div>
+
+        </section>
+        
+        <div class="cart" id="cart">
+            <div class="title"> CART</div>
+            Total Item = <b id="c"></b>
+            <ol id="title"> </ol>
+            <div><button  type="submit">Buy</button></div>
+        </div>
+        
+    </body>
+</html>
